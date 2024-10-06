@@ -1,1 +1,38 @@
-<h1>Welcome to home screen</h1>
+<div class="container my-5 p-4 bg-light shadow rounded">
+  <div class="row justify-content-center text-center">
+    <!-- Title Section -->
+    <div class="col-md-10 mb-4">
+      <h1 class="display-4 text-primary">How Does Role-Based Access System Work?</h1>
+    </div>
+
+    <!-- Explanation Section -->
+    <div class="col-md-10 mb-4">
+      <p class="lead text-muted">
+        Angular's AuthGuard restricts access to certain routes or components based on the roles assigned to
+        authenticated users.
+      </p>
+    </div>
+
+    <!-- Role-based Access Details -->
+    <div class="col-md-10 mb-4">
+      <ul class="list-group">
+        <li class="list-group-item list-group-item-action">If User's role is <strong>Admin</strong>, they can view all
+          Users.</li>
+        <li class="list-group-item list-group-item-action">If User's role is <strong>Normal</strong>, they will be
+          denied access.</li>
+        <li class="list-group-item list-group-item-action">If User is <strong>not logged in</strong>, they will also be
+          denied access.</li>
+      </ul>
+      <p class="mt-3">Try it out below! 😊</p>
+    </div>
+
+    <!-- User Dashboard Button -->
+    <div class="col-md-10">
+      <a routerLink="/users" routerLinkActive="router-link-active">
+        <button class="btn btn-lg btn-primary shadow-lg" (click)="userScreens()">
+          View User Dashboard
+        </button>
+      </a>
+    </div>
+  </div>
+</div>

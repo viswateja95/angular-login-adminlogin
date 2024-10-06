@@ -1,4 +1,21 @@
-<app-header></app-header>
-<div class="container">
-  <router-outlet></router-outlet>
+<div class="container-fluid py-4 bg-light">
+  <div class="row justify-content-center">
+    <!-- Header Section -->
+    <div class="col-12 col-md-10 mb-4">
+      <div class="card shadow-sm rounded">
+        <div class="card-body p-3">
+          <app-header></app-header>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="col-12 col-md-10">
+      <div class="card shadow-sm rounded">
+        <div class="card-body p-4">
+          <router-outlet></router-outlet>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

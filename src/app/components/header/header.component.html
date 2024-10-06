@@ -6,11 +6,9 @@
       <button class="card-title btn btn-primary " (click)="logout()">logout</button>
       }@else {
       <!-- <a routerLink="/login">Login</a> -->
-      @if(!isLoggedIn){
       <a routerLink="/login">
-        <button class="card-title btn btn-primary " (click)="login()">Login</button>
+        <button class="btn btn-primary " (click)="login()">Login</button>
       </a>
-      }
 
       }
     </div>
