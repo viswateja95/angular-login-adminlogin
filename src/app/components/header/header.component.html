@@ -1,0 +1,18 @@
+<div class="container ">
+  <div class="card row p-2">
+    <div class="card-header d-flex align-items-center gap-3">
+      <h5 class="card-title p-2">Role-Based-Authentication</h5>
+      @if(isLoggedIn){
+      <button class="card-title btn btn-primary " (click)="logout()">logout</button>
+      }@else {
+      <!-- <a routerLink="/login">Login</a> -->
+      @if(!isLoggedIn){
+      <a routerLink="/login">
+        <button class="card-title btn btn-primary " (click)="login()">Login</button>
+      </a>
+      }
+
+      }
+    </div>
+  </div>
+</div>

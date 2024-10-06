@@ -1,0 +1,82 @@
+{
+  "users": [
+    {
+      "id": "admin",
+      "name": "Viswa Teja",
+      "email": "viswatejaeppili@gmail.com",
+      "password": "admin@123",
+      "role": "admin",
+      "isActive": true
+    },
+    {
+      "id": "vinay123",
+      "name": "Vinay Kumar",
+      "email": "vinaykumar@gmail.com",
+      "password": "vinay123",
+      "role": "",
+      "isActive": false
+    },
+    {
+      "id": "venkat123",
+      "name": "Venkat Kumar",
+      "email": "venkatrao@gmail.com",
+      "password": "venkat123",
+      "role": "",
+      "isActive": false
+    },
+    {
+      "id": "3555",
+      "username": "viswa",
+      "fullname": "viswa",
+      "email": "viswa@gmail.com",
+      "password": "viswa",
+      "role": "",
+      "isActive": false
+    },
+    {
+      "id": "e0ca",
+      "username": "viswateja",
+      "fullname": "viswatejaeppili",
+      "email": "viswatejaeppili@gmail.com",
+      "password": "viswa",
+      "role": "",
+      "isActive": false
+    },
+    {
+      "id": "661e",
+      "username": "viswa",
+      "fullname": "viswa",
+      "email": "viswa@gmail.com",
+      "password": "viswa",
+      "role": "",
+      "isActive": false
+    },
+    {
+      "id": "c357",
+      "username": "viswateja",
+      "fullname": "viswa",
+      "email": "viswateja@gmail.com",
+      "password": "viswa",
+      "role": "admin",
+      "isActive": false
+    },
+    {
+      "id": "admin",
+      "username": "viswa",
+      "fullname": "viswa",
+      "email": "viswatej@gmail.com",
+      "password": "admin@123",
+      "role": "admin",
+      "isActive": false
+    },
+    {
+      "id": "admin",
+      "username": "viswa",
+      "fullname": "viswa",
+      "email": "vinay@gmail.com",
+      "password": "viswa@123",
+      "role": "admin",
+      "isActive": false
+    }
+  ]
+}
